@@ -1,0 +1,47 @@
+body { 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11pt;
+    margin-left: 2em;
+    margin-right: 2em;
+}   
+h1 { 
+    color: teal;
+}
+h2 {
+    color: teal;
+}
+.bold-label{
+   font-weight: bold;
+}
+label {
+    float: left;
+    width: 6em;
+    margin-bottom: 0.5em;
+    white-space: nowrap;
+}
+.radio-group {
+    display: flex;
+    gap: 40px;
+    white-space: nowrap;
+}
+.checkbox-group {
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: column;
+    white-space: nowrap;
+}
+
+.info-label {
+            margin-right: 10px;
+        }
+
+input[type="text"], input[type="email"] {
+    width: 15em;
+    margin-left: 0.5em;    
+    margin-bottom: 0.5em;
+}
+br {
+    clear: both;
+}
+#submit {
+    margin-left: 0.5em; }
